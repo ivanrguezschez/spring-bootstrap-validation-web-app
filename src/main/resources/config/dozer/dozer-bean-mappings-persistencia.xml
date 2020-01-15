@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <configuration>
+        <trim-strings>true</trim-strings>
+    </configuration>
+	
+    <mapping map-empty-string="false">
+        <class-a>com.irs.springbootstrapvalidationwebapp.dominio.Usuario</class-a>
+        <class-b>com.irs.springbootstrapvalidationwebapp.negocio.vo.UsuarioVO</class-b>
+    </mapping>
+	
+    <mapping map-empty-string="false">
+        <class-a>com.irs.springbootstrapvalidationwebapp.dominio.Rol</class-a>
+        <class-b>com.irs.springbootstrapvalidationwebapp.negocio.vo.RolVO</class-b>
+    </mapping>
+</mappings>
